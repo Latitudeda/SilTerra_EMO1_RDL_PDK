@@ -1,3 +1,3 @@
 bands.py
 =========
-Indicated the applicable bands used in IOPTEE PDK.
+Indicated the applicable bands used in SilTerra PDK.

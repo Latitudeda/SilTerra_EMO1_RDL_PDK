@@ -1,7 +1,7 @@
 Technology setting
 ========================
 
-The technology in IOPTEE PDK holds a number of common configuration files dealing with process and layout display, such as:
+The technology in SilTerra PDK holds a number of common configuration files dealing with process and layout display, such as:
 
 
 

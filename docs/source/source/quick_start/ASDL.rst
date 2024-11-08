@@ -1,18 +1,22 @@
 AdvancedSDL
 =======================================
 
-Import IOPTEE PDK into AdvancedSDL
+Import SilTerra PDK into AdvancedSDL
 *******************************************
+
+Copy the SilTerra PDK folder to the **AdvancedSDL** installation path: ``...\AdvancedSDL\Python\Lib\site-packages``.
+
+.. image:: ../images/ASDL_0.png
 
 Click ``PDK`` on the top toolbar of **AdvancedSDL** and select ``Open PDK Symbol Design``.
 
 .. image:: ../images/ASDL_1.png
 
-Locate and select the ``IOPTEE`` folder.
+Locate and select the ``SilTerra`` folder.
 
 .. image:: ../images/ASDL_2.png
 
-After the import is complete, you will see the ``IOPTEE`` PDK component library on the left.
+After the import is complete, you will see the ``SilTerra`` PDK component library on the left.
 
 .. image:: ../images/ASDL_3.png
 
@@ -20,11 +24,11 @@ Click ``File`` and then click ``New Project``.
 
 .. image:: ../images/ASDL_4.png
 
-Enter the project name and path, select ``IOPTEE`` PDK in the PDK column, and click ``Save``.
+Enter the project name and path, select ``SilTerra`` PDK in the PDK column, and click ``Save``.
 
 .. image:: ../images/ASDL_5.png
 
-Wait for the contents of ``IOPTEE PDK symbols succeed`` to appear in the output.
+Wait for the contents of ``Import SilTerra_EMO1_PDK1p0_Latitudeda pdk symbols succeed`` to appear in the output.
 
 .. image:: ../images/ASDL_6.png
 
@@ -32,23 +36,19 @@ Right-click on the ``circuits`` of the project, click ``New Circuit``, type ``ci
 
 .. image:: ../images/ASDL_7.png
 
-Drag components to the center region.
+Drag components to the center region. Click on the component, the parameters of the component can be adjusted on the right side.
 
 .. image:: ../images/ASDL_8.png
-
-Click on the component, the parameters of the component can be adjusted on the right side.
-
-.. image:: ../images/ASDL_9.png
 
 Once the parameters are set, connect the ports to route the components and click SDL in the upper right.
 
 .. image:: ../images/ASDL_10.png
 
-The corresponding layout is displayed in the ``Layout View``.
+The corresponding layout is displayed in the ``Layout View``. And it generates python layout code called ``Generated-Script.py``, which can be run and used in **PhotoCAD**.
 
 .. image:: ../images/ASDL_11.png
 
-The script generated in the lower left can also be run in **PhotoCAD** and modified to create a new layout. The script is saved in the project's Temp folder.
+The ``Generated-Script.py`` can be run in **PhotoCAD** and modified to create a new layout. The script is saved in the project's Temp folder.
 
 .. image:: ../images/ASDL_12.png
 

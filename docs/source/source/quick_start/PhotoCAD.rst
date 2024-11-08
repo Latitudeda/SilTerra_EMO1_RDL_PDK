@@ -1,12 +1,12 @@
 PhotoCAD
 =======================================
 
-This section demonstrates how to import the IOPTEE PDK into **PhotoCAD**. It is divided into two steps: creating a PhotoCAD workspace and importing the IOPTEE PDK. If a PhotoCAD workspace has already been created, the user can skip to step 2.
+This section demonstrates how to import the SilTerra PDK into **PhotoCAD**. It is divided into two steps: creating a **PhotoCAD** workspace and importing the SilTerra PDK. If a **PhotoCAD** workspace has already been created, the user can skip to step 2.
 
 Create a PhotoCAD Workspace
 *******************************************
 
-Click on PhotoCAD to open the PhotoCAD Launcher in PIC Studio. Click ``IDE Config`` and select either ``Visual Studio Code`` or ``PyCharm`` as the IDE. Then click ``Create Workspace`` to configure the workspace.
+Click on **PhotoCAD** to open the **PhotoCAD Launcher** in **PIC Studio**. Click ``IDE Config`` and select either ``Visual Studio Code`` or ``PyCharm`` as the IDE. Then click ``Create Workspace`` to configure the workspace.
 
 
 .. image:: ../images/PhotoCAD_1.png
@@ -48,19 +48,18 @@ The workspace has been created successfully if you see a pop-up window like the 
 .. image:: ../images/PhotoCAD_5.png
 
 
-Import IOPTEE PDK into PhotoCAD
+Import SilTerra PDK into PhotoCAD
 *******************************************
 
-First, make sure that the IOPTEE PDK version matches the version of **PhotoCAD**. The version of **PhotoCAD** can be obtained in ``Run`` by running scripts in **PhotoCAD**.
+First, make sure that the SilTerra PDK version matches the version of **PhotoCAD**. The version of **PhotoCAD** can be obtained in ``Run`` by running scripts in **PhotoCAD**.
 
-Extract the ``IOPTEE_PDK_BB`` zip archive and copy it to the workspace folder. As shown in the figure below, the ``IOPTEE_BB`` folder is in the demo folder and parallel to .vene_demo.
-
+Extract the ``SilTerra_EMO1_PDK1p0_Latitudeda`` zip archive and copy it to the workspace folder. As shown in the figure below, the ``SilTerra_EMO1_PDK1p0_Latitudeda`` folder is in the demo folder and parallel to .vene_demo.
 
 .. image:: ../images/PhotoCAD_6.png
 
-It's important to note that the PDK folder structure is the same as in the figure. Subfolders such as ``components`` and ``examples`` should be seen when expanding the ``IOPTEE PDK`` folder. Otherwise, the import path will be wrong when you run the code.
+It's important to note that the PDK folder structure is the same as in the figure. Subfolders such as ``components`` and ``examples`` should be seen when expanding the ``SilTerra_EMO1_PDK1p0_Latitudeda`` folder. Otherwise, the import path will be wrong when you run the code.
 
-Open and run ``IOPTEE_BB/examples/link.py``. PDK will be imported successfully if there are no errors and ``link.gds`` will be exported.
+Open and run ``SilTerra_EMO1_PDK1p0_Latitudeda/examples/link_test.py``. PDK will be imported successfully if there are no errors and ``link_test.gds`` will be exported.
 
 .. image:: ../images/PhotoCAD_7.png
 

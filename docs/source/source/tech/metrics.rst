@@ -1,3 +1,3 @@
 metrics.py
 ==============
-To define the metrics used in IOPTEE PDK.
+To define the metrics used in SilTerra PDK.

@@ -1,4 +1,4 @@
-IOPTEE documentation
+SilTerra documentation
 ====================================
 
 .. toctree::

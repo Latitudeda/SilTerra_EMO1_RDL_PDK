@@ -1,2 +1,2 @@
-# IOPTEE_PDK
-IOPTEE PDK documentation
+# SilTerra_PDK
+SilTerra PDK documentation

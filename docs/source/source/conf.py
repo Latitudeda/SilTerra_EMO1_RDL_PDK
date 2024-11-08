@@ -2,12 +2,12 @@
 
 # -- Project information
 
-project = 'IOPTEE PDK documentation'
+project = 'SilTerra EMO1 PDK documentation'
 copyright = '2024, Latitudeda.com'
 author = 'latitudeda.com'
 
-release = '2.0'
-version = '2.0.0'
+release = '1.0'
+version = '1.0.0'
 
 # -- General configuration
 
