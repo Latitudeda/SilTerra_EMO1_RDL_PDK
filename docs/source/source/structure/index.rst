@@ -3,7 +3,7 @@ PDK structure
 
 Process Design Kit (PDK) is a tool for designated users to generate circuit layouts based on SilTerra design rules and technology settings.
 
-``SilTerra_EMO1_PDK1p0_Latitudeda`` package includes six subfolders: ``components``, ``examples``, ``technology``, and ``util``.
+``SilTerra_EMO1_PDK1p1_Latitudeda`` package includes six subfolders: ``components``, ``examples``, ``technology``, and ``util``.
 
 * ``components``
 
@@ -26,7 +26,7 @@ Process Design Kit (PDK) is a tool for designated users to generate circuit layo
 
     * Please see **PhotoCAD** online manual for more information.
 
-* ``SilTerra_EMO1_PDK1p0_Latitudeda.lyp`` : This file allows layout tools e.g. Klayout to recognize the layer information when displaying gds file to the layout tool.
+* ``SilTerra_EMO1_PDK1p1_Latitudeda.lyp`` : This file allows layout tools e.g. Klayout to recognize the layer information when displaying gds file to the layout tool.
 
     .. image:: ../images/lyp.png
 

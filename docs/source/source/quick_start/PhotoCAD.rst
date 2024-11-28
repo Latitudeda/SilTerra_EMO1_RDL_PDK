@@ -53,13 +53,13 @@ Import SilTerra PDK into PhotoCAD
 
 First, make sure that the SilTerra PDK version matches the version of **PhotoCAD**. The version of **PhotoCAD** can be obtained in ``Run`` by running scripts in **PhotoCAD**.
 
-Extract the ``SilTerra_EMO1_PDK1p0_Latitudeda`` zip archive and copy it to the workspace folder. As shown in the figure below, the ``SilTerra_EMO1_PDK1p0_Latitudeda`` folder is in the demo folder and parallel to .vene_demo.
+Extract the ``SilTerra_EMO1_PDK1p1_Latitudeda`` zip archive and copy it to the workspace folder. As shown in the figure below, the ``SilTerra_EMO1_PDK1p1_Latitudeda`` folder is in the demo folder and parallel to .vene_demo.
 
 .. image:: ../images/PhotoCAD_6.png
 
-It's important to note that the PDK folder structure is the same as in the figure. Subfolders such as ``components`` and ``examples`` should be seen when expanding the ``SilTerra_EMO1_PDK1p0_Latitudeda`` folder. Otherwise, the import path will be wrong when you run the code.
+It's important to note that the PDK folder structure is the same as in the figure. Subfolders such as ``components`` and ``examples`` should be seen when expanding the ``SilTerra_EMO1_PDK1p1_Latitudeda`` folder. Otherwise, the import path will be wrong when you run the code.
 
-Open and run ``SilTerra_EMO1_PDK1p0_Latitudeda/examples/link_test.py``. PDK will be imported successfully if there are no errors and ``link_test.gds`` will be exported.
+Open and run ``SilTerra_EMO1_PDK1p1_Latitudeda/examples/link_test.py``. PDK will be imported successfully if there are no errors and ``link_test.gds`` will be exported.
 
 .. image:: ../images/PhotoCAD_7.png
 
