@@ -10,6 +10,7 @@ The technology in SilTerra PDK holds a number of common configuration files deal
 
    auto_link
    auto_transition
+   auto_vias
    bands
    device
    gdsii
@@ -17,6 +18,7 @@ The technology in SilTerra PDK holds a number of common configuration files deal
    layers
    metrics
    terminal
+   vias
    wg
 
 

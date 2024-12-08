@@ -28,7 +28,7 @@ Enter the project name and path, select ``SilTerra`` PDK in the PDK column, and 
 
 .. image:: ../images/ASDL_5.png
 
-Wait for the contents of ``Import SilTerra_EMO1_PDK1p1_Latitudeda pdk symbols succeed`` to appear in the output.
+Wait for the contents of ``Import SilTerra_EMO1_PDK1p2_Latitudeda pdk symbols succeed`` to appear in the output.
 
 .. image:: ../images/ASDL_6.png
 

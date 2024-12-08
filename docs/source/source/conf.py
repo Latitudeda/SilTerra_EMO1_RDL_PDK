@@ -6,8 +6,8 @@ project = 'SilTerra EMO1 PDK documentation'
 copyright = '2024, Latitudeda.com'
 author = 'latitudeda.com'
 
-release = '1.1'
-version = '1.1.0'
+release = '1.2'
+version = '1.2.0'
 
 # -- General configuration
 
