@@ -4,12 +4,12 @@ SilTerra EMO1 RDL documentation
    :width: 100%
    :align: center
 
-This documentation outlines the contents and usage of the **Latitudeda PDK** for **SilTerra EMO1 RDL** (v1.3).
+This documentation outlines the contents and usage of the **Latitude PDK** for **SilTerra EMO1 RDL** (rev8).
 
 The PDK is compatible with **PhotoCAD** and **Advanced SDL** for layout generation. Key features and capabilities include:
 
 - Designing custom components using the defined layers from **SilTerra EMO1 RDL**.
-- Creating circuits with **SilTerra**'s predefined components and **Latitudeda**'s base PCell.
+- Creating circuits with **SilTerra**'s predefined components and **Latitude**'s base PCell.
 - Automating routing with supported waveguide types and metal line configurations.
 
 This documentation is organized into the following sections:

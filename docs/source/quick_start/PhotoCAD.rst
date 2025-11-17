@@ -39,7 +39,7 @@ After the configuration, click ``Create and Open`` and the workspace will be aut
 
 .. image:: ../images/PhotoCAD_3.png
 
-Double-click the ``welcome.py`` in demo the folder. Run this code by right-clicking on the code interface and selecting ``Run 'welcome'``.
+Double-click the ``welcome.py`` in the demo folder. Run this code by right-clicking on the code interface and selecting ``Run 'welcome'``.
 
 .. image:: ../images/PhotoCAD_4.png
 
@@ -53,13 +53,14 @@ Import SilTerra PDK into PhotoCAD
 
 First, make sure that the SilTerra PDK version matches the version of **PhotoCAD**. The version of **PhotoCAD** can be obtained in ``Run`` by running scripts in **PhotoCAD**.
 
-Extract the ``SilTerra_EMO1_RDL_PDK1p3_Latitudeda`` zip archive and copy it to the workspace folder. As shown in the figure below, the ``SilTerra_EMO1_RDL_PDK1p3_Latitudeda`` folder is in the demo folder and parallel to .vene_demo.
+Extract the ``SilTerra_EMO1_RDL_PDK_rev8p0_Latitude`` zip archive and copy it to the workspace folder. As shown in the figure below, the ``SilTerra_EMO1_RDL_PDK_rev8p0_Latitude`` folder is in the demo folder and parallel to .vene_demo.
 
 .. image:: ../images/PhotoCAD_6.png
+   :width: 60%
 
-It's important to note that the PDK folder structure is the same as in the figure. Subfolders such as ``components`` and ``examples`` should be seen when expanding the ``SilTerra_EMO1_RDL_PDK1p3_Latitudeda`` folder. Otherwise, the import path will be wrong when you run the code.
+It's important to note that the PDK folder structure is the same as in the figure. Subfolders such as ``components`` and ``examples`` should be seen when expanding the ``SilTerra_EMO1_RDL_PDK_rev8p0_Latitude`` folder. Otherwise, the import path will be wrong when you run the code.
 
-Open and run ``SilTerra_EMO1_RDL_PDK1p3_Latitudeda/examples/link_test.py``. PDK will be imported successfully if there are no errors and ``link_test.gds`` will be exported.
+Open and run ``SilTerra_EMO1_RDL_PDK_rev8p0_Latitude/examples/link_test.py``. PDK will be imported successfully if there are no errors and ``link_test.gds`` will be exported.
 
 .. image:: ../images/PhotoCAD_7.png
 
