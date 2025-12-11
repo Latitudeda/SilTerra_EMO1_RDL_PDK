@@ -3,8 +3,8 @@
 # -- Project information
 
 project = 'SilTerra EMO1 RDL PDK Documentation'
-copyright = '2025, Latitudeda.com'
-author = 'www.latitudeda.com'
+copyright = '2025, Latitudeds.com'
+author = 'www.latitudeds.com'
 
 release = '8.0'
 version = '8.0'

@@ -1,6 +1,6 @@
 SilTerra EMO1 RDL documentation
 ====================================
-.. image:: ./images/LDA_LOGO_WIDE.png
+.. image:: ./images/LDS_LOGO_WIDE.png
    :width: 100%
    :align: center
 
