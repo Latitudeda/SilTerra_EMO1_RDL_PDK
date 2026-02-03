@@ -4,7 +4,7 @@ SilTerra EMO1 RDL documentation
    :width: 100%
    :align: center
 
-This documentation outlines the contents and usage of the **Latitude PDK** for **SilTerra EMO1 RDL** (rev10).
+This documentation outlines the contents and usage of the **Latitude PDK** for **SilTerra EMO1 RDL** (rev11).
 
 The PDK is compatible with **PhotoCAD** and **Advanced SDL** for layout generation. Key features and capabilities include:
 
