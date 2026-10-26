@@ -20,6 +20,6 @@ Define the WG class which consists of classes such as ``STRIP.C.WIRE`` / ``LRIB.
     `TECH.WG.SIN_STRIP1.O.WIRE`       core_width=0.8000, cladding_width=8.8000
     `TECH.WG.SIN_RIB.C.WIRE`          core_width=1.0000, cladding_width=9.0000
     `TECH.WG.SIN_RIB.O.WIRE`          core_width=0.8000, cladding_width=8.8000
-    `TECH.WG.SIN_RIB1.C.WIRE`         core_width=1.2000, cladding_width=17.2000
-    `TECH.WG.SIN_RIB1.O.WIRE`         core_width=1.0000, cladding_width=17.0000
+    `TECH.WG.SIN_RIB1.C.WIRE`         core_width=1.2000, trench_width=8.0000
+    `TECH.WG.SIN_RIB1.O.WIRE`         core_width=1.0000, trench_width=8.0000
     ================================  ==========================================
