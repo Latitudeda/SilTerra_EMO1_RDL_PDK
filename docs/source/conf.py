@@ -6,8 +6,8 @@ project = 'SilTerra EMO1 RDL PDK Documentation'
 copyright = '2025, Latitudeds.com'
 author = 'www.latitudeds.com'
 
-release = '11.0'
-version = '11.0'
+release = '13.0'
+version = '13.0'
 
 # -- General configuration
 

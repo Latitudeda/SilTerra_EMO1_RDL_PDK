@@ -1,3 +1,3 @@
 bands.py
 =========
-Indicated the applicable bands used in SilTerra PDK.
+Indicate the applicable bands used in SilTerra PDK.

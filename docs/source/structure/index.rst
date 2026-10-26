@@ -3,7 +3,7 @@ PDK structure
 
 Process Design Kit (PDK) is a tool for designated users to generate circuit layouts based on SilTerra design rules and technology settings.
 
-``SilTerra_EMO1_RDL_PDK_rev11p0_Latitude`` package includes these subfolders: ``components``, ``examples``, ``technology``, and ``util``.
+``SilTerra_EMO1_RDL_PDK_rev13p0_Latitude`` package includes six subfolders: ``components``, ``examples``,  ``schematic``, ``symbols``, ``technology``, and ``util``.
 
 * ``components``
 
@@ -13,8 +13,15 @@ Process Design Kit (PDK) is a tool for designated users to generate circuit layo
 
 * ``examples``
 
-    * ``link_test.py`` : Tests that waveguide types, metal wire types, auto routing, and auto link function works normally under the PDK setting. Please see ``gpdk > examples`` for more circuit examples.
+    * ``link_test.py`` : Test that waveguide types, metal wire types, auto routing, auto link and auto vias function work normally under the PDK setting. Please see ``gpdk > examples`` for more circuit examples.
 
+* ``schematic``
+
+    * Store the schematic setting for linking PhotoCAD to AdvancedSDL.
+
+* ``symbols``
+
+    * Store the symbol setting for linking PhotoCAD to AdvancedSDL.
 
 * ``technology``
 
@@ -28,7 +35,7 @@ Process Design Kit (PDK) is a tool for designated users to generate circuit layo
 
     * Please see **PhotoCAD** online manual for more information.
 
-* ``SilTerra_EMO1_RDL_PDK_rev11p0_Latitude.lyp`` : This file allows layout tools e.g. Klayout to recognize the layer information when displaying gds file to the layout tool.
+* ``SilTerra_EMO1_RDL_PDK_rev13p0_Latitude.lyp`` : This file allows layout tools e.g. KLayout to recognize the layer information when displaying gds file to the layout tool.
 
     .. image:: ../images/lyp.png
        :width: 80%

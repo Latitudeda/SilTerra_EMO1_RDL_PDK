@@ -1,7 +1,7 @@
 PhotoCAD
 =======================================
 
-This section demonstrates how to import the SilTerra PDK into **PhotoCAD**. It is divided into two steps: creating a **PhotoCAD** workspace and importing the SilTerra PDK. If a **PhotoCAD** workspace has already been created, the user can skip to step 2.
+This section demonstrates how to import the SilTerra PDK into **PhotoCAD**. It is divided into two steps: creating a **PhotoCAD** workspace and importing the SilTerra PDK. If a **PhotoCAD** workspace has already been created, the user can skip to step 2:  :ref:`import-pdk-step`.
 
 Create a PhotoCAD Workspace
 *******************************************
@@ -31,7 +31,7 @@ Configure the workspace in the pop-up window.
 
 * ``Python Version``
 
-    * Select the Python version. We recommend that users select Python 3.8.
+    * Select the Python version. We recommend that users select Python 3.10.
 
 .. image:: ../images/PhotoCAD_2.png
 
@@ -47,20 +47,21 @@ The workspace has been created successfully if you see a pop-up window like the 
 
 .. image:: ../images/PhotoCAD_5.png
 
+.. _import-pdk-step:
 
 Import SilTerra PDK into PhotoCAD
 *******************************************
 
 First, make sure that the SilTerra PDK version matches the version of **PhotoCAD**. The version of **PhotoCAD** can be obtained in ``Run`` by running scripts in **PhotoCAD**.
 
-Extract the ``SilTerra_EMO1_RDL_PDK_rev11p0_Latitude`` zip archive and copy it to the workspace folder. As shown in the figure below, the ``SilTerra_EMO1_RDL_PDK_rev11p0_Latitude`` folder is in the demo folder and parallel to .vene_demo.
+Extract the ``SilTerra_EMO1_RDL_PDK_rev13p0_Latitude`` zip archive and copy it to the workspace folder. As shown in the figure below, the ``SilTerra_EMO1_RDL_PDK_rev13p0_Latitude`` folder is in the demo folder and parallel to .vene_demo.
 
 .. image:: ../images/PhotoCAD_6.png
    :width: 60%
 
-It's important to note that the PDK folder structure is the same as in the figure. Subfolders such as ``components`` and ``examples`` should be seen when expanding the ``SilTerra_EMO1_RDL_PDK_rev11p0_Latitude`` folder. Otherwise, the import path will be wrong when you run the code.
+It's important to note that the PDK folder structure is the same as in the figure. Subfolders such as ``components`` and ``examples`` should be seen when expanding the ``SilTerra_EMO1_RDL_PDK_rev13p0_Latitude`` folder. Otherwise, the import path will be wrong when you run the code.
 
-Open and run ``SilTerra_EMO1_RDL_PDK_rev11p0_Latitude/examples/link_test.py``. PDK will be imported successfully if there are no errors and ``link_test.gds`` will be exported.
+Open and run ``SilTerra_EMO1_RDL_PDK_rev13p0_Latitude/examples/link_test.py``. PDK will be imported successfully if there are no errors and ``link_test.gds`` will be exported.
 
 .. image:: ../images/PhotoCAD_7.png
 

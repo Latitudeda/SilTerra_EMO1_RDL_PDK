@@ -1,3 +1,3 @@
 metrics.py
 ==============
-To define the metrics used in SilTerra PDK.
+Define the metrics used in SilTerra PDK.

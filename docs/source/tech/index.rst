@@ -20,6 +20,7 @@ The technology in SilTerra PDK holds a number of common configuration files deal
    terminal
    vias
    wg
+   metal
 
 
 
