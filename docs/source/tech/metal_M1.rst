@@ -1,4 +1,4 @@
-m1.py
+UTM.py
 ===================
 
-Define the ``M1`` metal layer used in the SilTerra PDK.
+Define the ``UTM`` metal layer used in the SilTerra PDK.

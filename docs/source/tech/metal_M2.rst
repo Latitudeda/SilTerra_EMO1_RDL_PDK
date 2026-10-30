@@ -1,4 +1,4 @@
-m2.py
+UTM2.py
 ===================
 
-Define the ``M2`` metal layer used in the SilTerra PDK.
+Define the ``UTM2`` metal layer used in the SilTerra PDK.

@@ -1,4 +1,4 @@
-m3.py
+RDL_Met.py
 ===================
 
-Define the ``M3`` metal layer used in the SilTerra PDK.
+Define the ``RDL_Met`` metal layer used in the SilTerra PDK.
